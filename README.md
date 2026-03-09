@@ -1,41 +1,27 @@
 # Mini DataLab 📊
 
-Mini DataLab is a simple CLI-based data analysis tool built with Python and pandas.
+Mini DataLab is a simple data analysis web app built with Python and Streamlit.
 
 ## Features
 
-- Load CSV files
+- Upload CSV files
 - View summary statistics
 - Remove missing values
 - Plot numeric column distributions
 
-## Installation
+## Tech Stack
 
-1. Clone the repository:
+Python  
+Pandas  
+Matplotlib  
+Streamlit
 
-2. Navigate into the folder:
+## Run Locally
 
-3. Install dependencies:
+Install dependencies
 
+pip install -r requirements.txt
 
-## Usage
+Run the app
 
-Run the program:
-
-
-Enter the file path when prompted (example: `data/sample.csv`).
-
-## Technologies Used
-
-- Python
-- pandas
-- matplotlib
-
-## Future Improvements
-
-- Add correlation analysis
-- Add outlier detection
-- Convert to web app (Streamlit)
-
-
-
+streamlit run app.py
